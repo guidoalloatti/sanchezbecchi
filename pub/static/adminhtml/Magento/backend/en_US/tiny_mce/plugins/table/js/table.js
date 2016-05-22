@@ -1,0 +1,1 @@
+/var/www/html/magento/lib/web/tiny_mce/plugins/table/js/table.js
