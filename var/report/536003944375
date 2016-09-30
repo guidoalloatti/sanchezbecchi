@@ -1,0 +1,12 @@
+a:4:{i:0;s:52:"Front controller reached 100 router match iterations";i:1;s:1810:"#0 [internal function]: Magento\Framework\App\FrontController->dispatch(Object(Magento\Framework\App\Request\Http))
+#1 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(74): call_user_func_array(Array, Array)
+#2 /var/www/html/magento/vendor/magento/framework/Interception/Chain/Chain.php(70): Magento\Framework\App\FrontController\Interceptor->___callParent('dispatch', Array)
+#3 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(136): Magento\Framework\Interception\Chain\Chain->invokeNext('Magento\Framewo...', 'dispatch', Object(Magento\Framework\App\FrontController\Interceptor), Array, 'install')
+#4 /var/www/html/magento/vendor/magento/framework/Module/Plugin/DbStatusValidator.php(69): Magento\Framework\App\FrontController\Interceptor->Magento\Framework\Interception\{closure}(Object(Magento\Framework\App\Request\Http))
+#5 [internal function]: Magento\Framework\Module\Plugin\DbStatusValidator->aroundDispatch(Object(Magento\Framework\App\FrontController\Interceptor), Object(Closure), Object(Magento\Framework\App\Request\Http))
+#6 /var/www/html/magento/vendor/magento/framework/Interception/Interceptor.php(141): call_user_func_array(Array, Array)
+#7 /var/www/html/magento/var/generation/Magento/Framework/App/FrontController/Interceptor.php(26): Magento\Framework\App\FrontController\Interceptor->___callPlugins('dispatch', Array, Array)
+#8 /var/www/html/magento/vendor/magento/framework/App/Http.php(115): Magento\Framework\App\FrontController\Interceptor->dispatch(Object(Magento\Framework\App\Request\Http))
+#9 /var/www/html/magento/vendor/magento/framework/App/Bootstrap.php(258): Magento\Framework\App\Http->launch()
+#10 /var/www/html/magento/index.php(39): Magento\Framework\App\Bootstrap->run(Object(Magento\Framework\App\Http))
+#11 {main}";s:3:"url";s:32:"//0/phpmyadmin/scripts/setup.php";s:11:"script_name";s:10:"/index.php";}

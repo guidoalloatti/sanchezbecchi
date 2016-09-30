@@ -1,9 +1,5 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1463876741;s:6:"expire";i:9999999999;s:4:"tags";s:115:"365_DEFAULT,365_CMS_INDEX_INDEX,365_CMS_PAGE_VIEW,365_CMS_INDEX_INDEX_ID_HOME,365_LAYOUT_GENERAL_CACHE_TAG,365_MAGE";}
-<!--
-    <referenceContainer name="right">
-        <action method="unsetChild"><argument name="alias" xsi:type="string">right.reports.product.viewed</argument></action>
-        <action method="unsetChild"><argument name="alias" xsi:type="string">right.reports.product.compared</argument></action>
-    </referenceContainer>--><body>
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1474926801;s:6:"expire";i:9999999999;s:4:"tags";s:115:"365_DEFAULT,365_CMS_INDEX_INDEX,365_CMS_PAGE_VIEW,365_CMS_INDEX_INDEX_ID_HOME,365_LAYOUT_GENERAL_CACHE_TAG,365_MAGE";}
+<body>
    <referenceContainer name="header.panel">
       <block class="Magento\Directory\Block\Currency" name="currency" before="store_language" template="currency.phtml"/>
    </referenceContainer>
@@ -662,8 +658,8 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1463876741;s:6:"expire";i:9999999999;s:4:"t
    </referenceContainer>
 </body>
 <body>
-   <referenceContainer name="content.top">
-      <block class="Magento\Cms\Block\Widget\Block" name="0992c8bca23df5dd58dd2eca26cf5df4" template="widget/static_block/default.phtml">
+   <referenceContainer name="main">
+      <block class="Magento\Cms\Block\Widget\Block" name="014ce5153ca1b08801404e8542ba0e4c" template="widget/static_block/default.phtml">
          <action method="setData">
             <argument name="name" xsi:type="string">block_id</argument>
             <argument name="value" xsi:type="string">2</argument>
